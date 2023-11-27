@@ -1,13 +1,11 @@
 package com.ph32395.khopro.DAO;
 
-import android.companion.WifiDeviceFilter;
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
 import com.ph32395.khopro.Database.DbHelper;
-import com.ph32395.khopro.Model.BanAn;
 
 import java.util.ArrayList;
 

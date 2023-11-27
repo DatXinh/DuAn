@@ -9,9 +9,6 @@ public class HoaDon {
     private int giaTien;
     private String kieuThanhToan;
     private String trangThai;
-    private int id_GiamGia;
-    private int soLuong;
-
 
     public int getId_HoaDon() {
         return id_HoaDon;
@@ -77,23 +74,7 @@ public class HoaDon {
         this.trangThai = trangThai;
     }
 
-    public int getId_GiamGia() {
-        return id_GiamGia;
-    }
-
-    public void setId_GiamGia(int id_GiamGia) {
-        this.id_GiamGia = id_GiamGia;
-    }
-
-    public int getSoLuong() {
-        return soLuong;
-    }
-
-    public void setSoLuong(int soLuong) {
-        this.soLuong = soLuong;
-    }
-
-    public HoaDon(int id_HoaDon, int id_MonAn, int id_NhanVien, int id_BanAn, String ngayTao, int giaTien, String kieuThanhToan, String trangThai, int id_GiamGia, int soLuong) {
+    public HoaDon(int id_HoaDon, int id_MonAn, int id_NhanVien, int id_BanAn, String ngayTao, int giaTien, String kieuThanhToan, String trangThai) {
         this.id_HoaDon = id_HoaDon;
         this.id_MonAn = id_MonAn;
         this.id_NhanVien = id_NhanVien;
@@ -102,8 +83,6 @@ public class HoaDon {
         this.giaTien = giaTien;
         this.kieuThanhToan = kieuThanhToan;
         this.trangThai = trangThai;
-        this.id_GiamGia = id_GiamGia;
-        this.soLuong=soLuong;
     }
 
     public HoaDon() {

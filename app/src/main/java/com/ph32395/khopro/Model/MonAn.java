@@ -4,10 +4,9 @@ public class MonAn {
     private int id_MonAn;
     private String tenMonAn;
     private int id_DanhMuc;
-    private int id_GiamGia;
     private int giaTien;
 
-    public MonAn(int id_MonAn, String tenMonAn, int id_DanhMuc, int giaTien,int id_GiamGia) {
+    public MonAn(int id_MonAn, String tenMonAn, int id_DanhMuc, int giaTien) {
         this.id_MonAn = id_MonAn;
         this.tenMonAn = tenMonAn;
         this.id_DanhMuc = id_DanhMuc;
@@ -47,13 +46,5 @@ public class MonAn {
 
     public void setGiaTien(int giaTien) {
         this.giaTien = giaTien;
-    }
-
-    public int getId_GiamGia() {
-        return id_GiamGia;
-    }
-
-    public void setId_GiamGia(int id_GiamGia) {
-        this.id_GiamGia = id_GiamGia;
     }
 }

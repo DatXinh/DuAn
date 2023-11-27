@@ -3,21 +3,17 @@ package com.ph32395.khopro.Model;
 public class NhanVien {
     private String id_NhanVien;
     private String hoTen;
-    private int tuoi;
-    private String gioiTinh;
     private String matKhau;
     private String loaiTaiKhoan;
 
     public NhanVien() {
     }
 
-    public NhanVien(String id_NhanVien, String hoTen,int tuoi,String gioiTinh, String matKhau, String loaiTaiKhoan) {
+    public NhanVien(String id_NhanVien, String hoTen, String matKhau, String loaiTaiKhoan) {
         this.id_NhanVien = id_NhanVien;
         this.hoTen = hoTen;
         this.matKhau = matKhau;
         this.loaiTaiKhoan = loaiTaiKhoan;
-        this.tuoi = tuoi;
-        this.gioiTinh=gioiTinh;
     }
 
     public String getId_NhanVien() {
@@ -50,21 +46,5 @@ public class NhanVien {
 
     public void setLoaiTaiKhoan(String loaiTaiKhoan) {
         this.loaiTaiKhoan = loaiTaiKhoan;
-    }
-
-    public int getTuoi() {
-        return tuoi;
-    }
-
-    public void setTuoi(int tuoi) {
-        this.tuoi = tuoi;
-    }
-
-    public String getGioiTinh() {
-        return gioiTinh;
-    }
-
-    public void setGioiTinh(String gioiTinh) {
-        this.gioiTinh = gioiTinh;
     }
 }
