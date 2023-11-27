@@ -6,6 +6,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
 import com.ph32395.khopro.Database.DbHelper;
+import com.ph32395.khopro.Model.HoaDon;
 
 import java.util.ArrayList;
 
@@ -37,7 +38,7 @@ public class HoaDonDAO {
         ContentValues values = new ContentValues();
         values.put("id_HoaDon", hoaDon.getId_HoaDon());
         values.put("id_MonAn", hoaDon.getId_MonAn());
-        values.put("soLuong",hoaDon.getSoLuong());
+        values.put("soLuong",hoaDon.getSoLuon());
         values.put("id_NhanVien",hoaDon.getId_NhanVien());
         values.put("id_BanAn",hoaDon.getId_BanAn());
         values.put("id_GiamGia",hoaDon.getId_GiamGia());
